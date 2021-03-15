@@ -1,0 +1,187 @@
+﻿<?php
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <!-- Font Awesome -->
+    <title>P2S Systems</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="mdbootstrap/css/mdb.min.css" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <!-- Start your project here-->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Navbar brand -->
+            <div class="navbar-brand">P2S <i class="fas fa-car"></i> Systems</div>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-mdb-toggle="dropdown"
+                           aria-expanded="false">
+                            Types of Services
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="ride.php">Ride to Destination</a></li>
+                            <li><a class="dropdown-item" href="deliver.php">Deliver Item</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="aboutus.html">About us</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id="tooltip1" href="cart.php"><i class="fas fa-shopping-cart"></i><span class="tt1">Checkout</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id="tooltip2" href="signup.php"><i class="fas fa-user"></i><span class="tt2">Sign Up</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id="tooltip3" href="aboutus.html"><i class="fas fa-envelope"></i><span class="tt3">Contact Us</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id="tooltip1" href="http://localhost/phpmyadmin/db_structure.php?server=1&db=project"><i class="fas fa-wrench"></i><span class="tt1">System Access</span></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    <!-- Page Content-->
+    <div class="content">
+        <h2>P2S Systems</h2><br />
+
+        <!-- Carousel wrapper -->
+        <div id="carouselBasicExample"
+             class="carousel slide carousel-fade"
+             data-mdb-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button"
+                        data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"></button>
+                <button type="button"
+                        data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button"
+                        data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide-to="2"
+                        aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Inner -->
+            <div class="carousel-inner">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                    <img src="https://wallpaperaccess.com/full/781963.jpg"
+                         class="d-block w-100"
+                         alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>P2S Systems</h5>
+                        <p>Aim to please.</p>
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <img src="https://wallpaperaccess.com/full/1552357.jpg"
+                         class="d-block w-100"
+                         alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Order Trips</h5>
+                        <p>Book your trip with us!</p>
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <img src="https://thumbs.dreamstime.com/b/person-wearing-orange-t-shirt-delivering-parcels-to-satisfied-client-friendly-worker-high-quality-delivery-service-138675938.jpg"
+                         class="d-block w-100"
+                         alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Item Delivery</h5>
+                        <p>We deliver now!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Inner -->
+            <!-- Controls -->
+            <button class="carousel-control-prev"
+                    type="button"
+                    data-mdb-target="#carouselBasicExample"
+                    data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next"
+                    type="button"
+                    data-mdb-target="#carouselBasicExample"
+                    data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Carousel wrapper -->
+        <br /><br />
+        We, at P2S Systems are at the forefront of whatever is good. <br />
+        Seriously.
+
+    </div>
+    <!-- Page Content-->
+    <!-- MDB -->
+    <script type="text/javascript" src="mdbootstrap/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+</body>
+</html>

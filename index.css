@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/Gotham-Medium.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Gotham-Medium.woff') format('woff'), /* Modern Browsers */
+    url('fonts/Gotham-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Gotham-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.bio {
+    float: left;
+    margin-left: auto;
+    padding-left: 11%;
+    width: 33.3%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+/*nav bootstrap*/
+.navbar-brand {
+    font-family:'Bernard MT';
+    cursor:pointer;
+}
+.navbar-brand:hover {
+    font-style:oblique;
+    cursor:pointer;
+}
+
+nav {
+    background-color: darkslategrey !important;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*link*/
+a {
+
+}
+
+a.nav-link {
+    color: white !important;
+}
+    a:hover {
+        color: cadetblue !important;
+    }
+
+a.dropdown-item {
+        color: black !important;
+        font-family: 'Lucida Fax';
+}
+#ex1-tab-1 {
+    color: black !important;
+}
+
+.logo {
+    display:block;
+    border-radius: 50%;
+    width:120px;
+    height:120px;
+    float:right;
+}
+
+
+/*Tooltip*/
+#tooltip1, #tooltip2, #tooltip3 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+    #tooltip1 .tt1 {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        /* Position the tooltip */
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+    }
+
+    #tooltip1:hover .tt1 {
+        visibility: visible;
+    }
+
+    #tooltip2 .tt2 {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        /* Position the tooltip */
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+    }
+
+    #tooltip2:hover .tt2 {
+        visibility: visible;
+    }
+
+    #tooltip3 .tt3 {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        /* Position the tooltip */
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+    }
+
+    #tooltip3:hover .tt3 {
+        visibility: visible;
+    }
+
+/*positions and align*/
+.center {
+    display: flex;
+    margin: 0 auto;
+    align-self:center;
+}
+
+img {
+    display: block;
+}
+
+/*forms*/
+.signup-form {
+    width:50%;
+    padding: 20px;
+    padding-top:50px;
+    margin: 0 auto;
+}
+
+h4 {
+    color:gray;
+}
+
+#map {
+    width:4000px;
+    height:1000px;
+}
