@@ -11,3 +11,5 @@ The Database is hosted locally, and the MySQL connection is handled in php/conne
 Other users can be created to access and read from the database, but only 'root' user can modify or add entries into the database.
 
 ## Database Dashboard
+You can access the Database Dashboard from:
+``` https://localhost/phpmyadmin/db_structure.php?server=1 ```
